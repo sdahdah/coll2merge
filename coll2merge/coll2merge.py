@@ -79,13 +79,13 @@ class Collection:
         # }
         self._coll: dict[int, dict[str, int]] = {}
 
-    def add_file(self, file: str) -> None:
+    def add_file(self, file: typing.TextIO) -> None:
         """Add a ``*.coll2`` file to the collection.
 
         Parameters
         ----------
-        file : str
-            Path to ``*.coll2`` file.
+        file : typing.TextIO
+            ``*.coll2`` file.
         """
         # Open file
         parsed_file = yaml.safe_load(file)

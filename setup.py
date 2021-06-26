@@ -14,5 +14,5 @@ setuptools.setup(
     entry_points={
         'console_scripts': ['coll2merge=coll2merge.coll2merge:main'],
     },
-    install_requires=['pyaml'],
+    install_requires=['pyyaml'],
 )
