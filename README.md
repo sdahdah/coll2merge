@@ -33,7 +33,7 @@ $ coll2merge scanned_cards.coll2 precons.coll2 > full_collection.coll2
 Install the development dependencies:
 
 ```sh
-$ pip install requirements.txt
+$ pip install -r requirements.txt
 ```
 
 Then run `pytest` in the `tests/` directory.
